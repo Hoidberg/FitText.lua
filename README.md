@@ -1,4 +1,4 @@
-# FitText.js, a <del>jQuery plugin</del> tiny script for inflating web type
+# FitText.<del>js</del> lua, a <del>jQuery plugin</del> tiny script for inflating web type
 FitText makes font-sizes flexible. Use this <del>plugin</del> script on your fluid or responsive layout to achieve scalable headlines that fill the width of a parent element.
 
 ## How it works
