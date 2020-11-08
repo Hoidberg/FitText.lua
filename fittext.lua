@@ -12,8 +12,8 @@
 local Player = game.Players.LocalPlayer
 
 local screenSizeContainer
-if Player.PlayerGui["ScreenSizeContainer"] then
-	screenSizeContainer = Player.PlayerGui["ScreenSizeContainer"]
+if Player.PlayerGui:FindFirstChild("ScreenSizeContainer") then
+	screenSizeContainer = Player.PlayerGui:FindFirstChild("ScreenSizeContainer")
 else
 	screenSizeContainer = Instance.new("ScreenGui", Player.PlayerGui) do
 		screenSizeContainer.Name = "ScreenSizeContainer"
