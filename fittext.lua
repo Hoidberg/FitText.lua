@@ -1,19 +1,25 @@
 --[[
 	FitText.lua 1.0
-
+	
 	Copyright 2011, Dave Rupert http://daverupert.com 
 	Released under the GNU General Public License
 	https://www.gnu.org/licenses/gpl-3.0.en.html
 	Modified by Charlie West-Toebe https://hoidberg.github.io/
-
+	
 `	Date: Nov 8, 2020, 10:20 AM CST
 ]]
 
 local Player = game.Players.LocalPlayer
 
-local screenSizeContainer = Instance.new("ScreenGui", Player.PlayerGui) do
-	screenSizeContainer.Name = "ScreenSizeContainer"
+local screenSizeContainer
+if Player.PlayerGui["ScreenSizeContainer"] then
+	screenSizeContainer = Player.PlayerGui["ScreenSizeContainer"]
+else
+	screenSizeContainer = Instance.new("ScreenGui", Player.PlayerGui) do
+		screenSizeContainer.Name = "ScreenSizeContainer"
+	end
 end
+
 local text = {}
 
 function extend(obj, ext)
