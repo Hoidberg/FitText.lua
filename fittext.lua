@@ -1,7 +1,7 @@
 --[[
 	FitText.lua 1.0
 
-	Copyright 2020, Dave Rupert http://daverupert.com 
+	Copyright 2011, Dave Rupert http://daverupert.com 
 	Released under the GNU General Public License
 	https://www.gnu.org/licenses/gpl-3.0.en.html
 	Modified by Charlie West-Toebe https://hoidberg.github.io/
